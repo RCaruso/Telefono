@@ -1,3 +1,54 @@
 body {
-	background-color: red;
+	background-color: #DCECDC;
+	font-family: "Open Sans", Arial;
+	font-size: 24px;
+	width: 100%;
+}
+
+.telefono {
+	width: 100%;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.display {
+	width: 40%;
+	height: 100px;
+	margin-left: 30%;
+	background-color: #F8831C;
+	border: 3px solid #F8831C;
+	border-radius: 10px;
+}
+
+.numeros {
+	margin-left: 16.75em;
+}
+
+.numero {
+	display: inline-block;
+}
+
+.numero button {
+	color: #CECDCC;
+	font-size: 40px;
+	width: 172px;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #FE9438;
+	border-style: solid;
+	border-radius: 10px; 
+}
+
+.numero button:hover {
+	border: 2px solid #BE6416;
+	background-color: #F8831C;
+	color: white;
+}
+
+.numero button:focus {
+	outline: 0;
 }
